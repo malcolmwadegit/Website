@@ -7,10 +7,10 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 function App() {
   return (
     <div className="app-container">
-      <Router basename="/website">
+      <Router >
         <Routes>
-          <Route path="/website" element={<Home />} />
-          <Route path="/website/contact-page" element={<ContactPage />} />
+          <Route path="/website/" element={Home} />
+          <Route path="/website/contact-page" element={ContactPage} />
         </Routes>
       </Router>
     </div>
