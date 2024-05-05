@@ -4,18 +4,18 @@ const fs = require('fs');
 const path = require('path');
 
 // Route for home page form submissions
-router.post('/', (req, res) => {
+router.post('/website', (req, res) => {
     saveFormData(req.body, 'home-page-data.json', res);
 });
 
 // Route for contact page form submissions
-router.post('/contact-page', (req, res) => {
+router.post('/website/contact-page', (req, res) => {
     saveFormData(req.body, 'contact-page-data.json', res);
 });
 
 // Function to save form data to a JSON file
 function saveFormData(formData, filename, res) {
-    const filePath = path.join(__dirname, `../data/${filename}`);
+    const filePath = path.join(__dirname, `./data/${filename}`);
 
     try {
         // Read existing data from JSON file
