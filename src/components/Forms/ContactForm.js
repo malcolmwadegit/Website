@@ -1,7 +1,7 @@
 // frontend/ContactForm.js
 
 import React, { useState } from "react";
-import axios from 'axios';
+// import axios from 'axios';
 import './ContactForm.css';
 
 const ContactForm = () => {
@@ -11,28 +11,28 @@ const ContactForm = () => {
     const [message, setMessage] = useState('');
 
     // Function to handle form submission
-    const handleSubmit = async (event) => {
-        event.preventDefault(); // Prevent default form submission behavior
+    // const handleSubmit = async (event) => {
+    //     event.preventDefault(); // Prevent default form submission behavior
 
-        try {
-            // Make an HTTP POST request to the server
-            const response = await axios.post('http://localhost:5000/api/contact-page', { name, email, message }); // Pass form data as an object
-            console.log('Data sent successfully:', response.data);
-            // Optionally, reset the form fields after successful submission
-            setName('');
-            setEmail('');
-            setMessage('');
-        } catch (error) {
-            console.error('Error sending data:', error);
-        }
-    };
+    //     try {
+    //         // Make an HTTP POST request to the server
+    //         const response = await axios.post('http://localhost:5000/api/contact-page', { name, email, message }); // Pass form data as an object
+    //         console.log('Data sent successfully:', response.data);
+    //         // Optionally, reset the form fields after successful submission
+    //         setName('');
+    //         setEmail('');
+    //         setMessage('');
+    //     } catch (error) {
+    //         console.error('Error sending data:', error);
+    //     }
+    // };
 
     return (
         <div className="page-container">
             <div className="component-container">
                 <h2>Contact Me</h2>
                 <div className="component-sub-container">
-                    <form className="contact-form" onSubmit={handleSubmit}>
+                    <form className="contact-form" >
                         <p className="input-container">
                             <label className="c-label">Name: </label>
                             <input
