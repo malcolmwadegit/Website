@@ -9,7 +9,7 @@ function App() {
     <>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
     <div className="app-container">
-    <Router basename="Website/">
+    <Router basename="/Website">
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/contact-page" element={<ContactPage />} />
