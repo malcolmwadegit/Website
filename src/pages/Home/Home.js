@@ -11,7 +11,6 @@ import ConsultForm from '../../components/Forms/ConsultForm';
 const Home = () => {
   return (
     <div>
-    <body>
       <div className="home-container">
         <header>
           <div>
@@ -126,7 +125,6 @@ const Home = () => {
         </footer>
 
       </div>
-    </body>
     </div>
   );
 };

@@ -8,8 +8,8 @@ function App() {
     <Router basename="/website">
       <div className="app-container">
         <Routes>
-          <Route exact path="/" element={<Home />} />
-          <Route path="/contact-page" element={<ContactPage />} />
+          <Route exact path='/' element={<Home />} />
+          <Route path='/contact-page' element={<ContactPage />} />
         </Routes>
       </div>
     </Router>
