@@ -1,0 +1,42 @@
+.header-row{
+    display: flex;
+    flex-direction: row;
+}
+
+.left-container{
+    width: 20%;
+    flex: left;
+    margin: auto;
+    padding: auto;
+
+}
+
+.middle-container{
+    width: 60%;
+    margin: auto;
+    padding: auto;
+
+}
+
+.right-container{
+    width: 20%;
+    flex: left;
+    justify-content: center;
+    margin: auto;
+    padding: auto;
+}
+
+.contact-container {
+    border: 2px solid black;
+    border-radius: 15px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 1px 2px black;
+    margin: auto;
+    width: 50%;
+    
+}
+
+.resume-container{ 
+    display: flex;
+    flex-direction: row;
+}

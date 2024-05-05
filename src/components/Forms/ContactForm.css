@@ -1,0 +1,59 @@
+
+.page-container{
+width: 100%;
+height: 90vh;
+display: flex;
+justify-content: center; /* Center horizontally */
+align-items: center; /* Center vertically */
+
+}
+
+.component-container{
+    width: 75%;
+    height: 50%;
+    margin: auto;
+    border: 3px solid black;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 2px 4px black;
+    border-radius: 15px;
+    padding: 20px;
+
+}
+
+.component-sub-container{
+    margin: auto;
+    padding: auto;
+}
+
+.text-box-component{
+    width: 100%;
+    height: 150px;
+    border-radius: 15px;
+    word-wrap: break-word;
+    vertical-align: top;
+}
+
+.c-label{
+    font-size:20px ;
+    font-weight:700;
+}
+
+.c-input-box{
+    width: 75%;
+    max-width: 300px;
+    border-radius: 8px;
+    border-width: 2px;
+}
+
+.input-container{
+    width: 75%;
+    max-width: 300px;
+
+}
+
+.contact-form{
+    margin: auto;
+    align-content: center;
+}
+
+    

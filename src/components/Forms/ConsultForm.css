@@ -1,0 +1,63 @@
+h3{
+    padding: 0;
+}
+
+.consult-component-container{
+    width: 75%;
+    height: 20%;
+    margin: auto;
+    border: 3px solid rgb(3, 3, 3);
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 2px 4px rgb(255, 221, 99);
+    border-radius: 15px;
+    padding: 5px;
+
+}
+
+.check-boxes{
+    display: flex;
+    flex-direction: row;
+    column-gap: 5px;
+}
+
+
+.consult-component-sub-container{
+    margin: auto;
+    padding: auto;
+}
+
+.consult-message-input{
+    width: 50%;
+    max-width: 300px;
+    border-radius: 8px;
+    border-width: 2px;
+    
+}
+
+.consult-label{
+    font-size:15px ;
+    font-weight:400;
+}
+
+
+.consult-input-box{
+    width: 75%;
+    max-width: 300px;
+    border-radius: 8px;
+    border-width: 2px;
+}
+
+.consult-input-container{
+    width: 75%;
+    max-width: 300px;
+
+}
+
+.consult-form{
+    margin: auto;
+    align-content: center;
+    display: flex;
+    flex-direction: row;
+}
+
+    
