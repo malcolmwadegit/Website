@@ -9,8 +9,8 @@ function App() {
     <div className="app-container">
       <Router basename="/website">
         <Routes>
-          <Route path="website/" component={Home} />
-          <Route path="website/contact-page" component={ContactPage} />
+          <Route path="/website" component={Home} />
+          <Route path="/website/contact-page" component={ContactPage} />
         </Routes>
       </Router>
     </div>
